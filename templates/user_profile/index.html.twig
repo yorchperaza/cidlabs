@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello {{ app.user.username }}!{% endblock %}
+
+{% block body %}
+
+<div class="container">
+  <div class="row justify-content-md-center">
+    <div class="col-md-auto">
+      <h1>Username: {{ app.user.username }}</h1>
+    </div>
+  </div>
+</div>
+{% endblock %}
