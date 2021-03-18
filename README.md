@@ -9,6 +9,6 @@
 
 ## Pages:
 
-1. Login `/login`
+1. Login `/login` -- user test in db: `user` with this can login, and not is neccesary the pass.
 2. Register `/register`
 3. Profile after login `/user/profile`
